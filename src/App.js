@@ -106,6 +106,7 @@ class App extends React.Component {
     data[current].HasAnswered = "Y";
     data[current].Response = ans;
     this.setState({ data: data, now: completed, answered: answered })
+    this.nextQuestion();
   }
 
   //function to move to the next question by increasing the current value
