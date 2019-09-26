@@ -1,14 +1,11 @@
 .App {
   text-align: center;
+  background-color: black;
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app-header {
+  background-color: #3a3b3b;
+  min-height: 15vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,6 +14,77 @@
   color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+.app-body {
+  background-color: #e8ecf3;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.app-footer {
+  background-color: #3a3b3b;
+  min-height: 15vh;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.progressbar {
+  max-width: 30vw;
+  margin-left: 30vw;
+}
+
+.btn {
+  margin: 2px;
+}
+
+.submit-btn {
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btn-single {
+  margin: 0;
+  height: 70px;
+}
+
+#btn-group {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-self: center;
+  width: 60vw;
+  height: 70px;
+}
+
+.skip-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-self: flex-end;
+}
+
+.agree-display {
+  align-items: center;
+  flex-direction: row;
+  font-size: 14px;
+}
+
+.question {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-self: center;
+  width: 60vw;
+  font-size: 20px;
+  font-style: italic;
+  color: #727475;
+  text-align: start;
+  margin-bottom: 20px;
 }
